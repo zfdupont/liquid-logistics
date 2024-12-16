@@ -10,7 +10,7 @@ drink_categories:
   - name: Spirits
     serving_unit: shot
     container_options:
-      - name: pint
+      - name: 375_ml
         volume_ml: 375
         servings: 8
       - name: fifth
@@ -49,18 +49,18 @@ party_settings:
 drink_preferences:
   - name: Vodka
     category: Spirits
-    votes: 9
+    votes: 8
     prices:
-      pint: 12.49
+      375_ml: 12.49
       fifth: 22.99
       liter: 26.99
       handle: 37.99
   
   - name: Tequila
     category: Spirits
-    votes: 7
+    votes: 3
     prices:
-      pint: 17.99
+      375_ml: 17.99
       fifth: 34.99
       liter: 100.99 # not sold we we go higher to avoid buying
       handle: 59.99
@@ -69,7 +69,7 @@ drink_preferences:
     category: Spirits
     votes: 3
     prices:
-      pint: 18.99
+      375_ml: 18.99
       fifth: 26.99
       liter: 33.99
       handle: 46.99
@@ -78,30 +78,39 @@ drink_preferences:
     category: Spirits
     votes: 3
     prices:
-      pint: 17.59
+      375_ml: 17.59
       fifth: 25.99
       liter: 36.99
       handle: 100.00 # not sold so we go ridiculously high
     
   - name: Fireball
     category: Spirits
-    votes: 7
+    votes: 2
     prices:
-      pint: 8.99
+      375_ml: 8.99
       fifth: 13.99
       liter: 19.99
       handle: 24.99
   
+  - name: Jagermeister
+    category: Spirits
+    votes: 3
+    prices:
+      375_ml: 14.89
+      fifth: 29.99
+      liter: 28.89
+      handle: 41.89
+  
   - name: Blue Moons
     category: Beer
-    votes: 5
+    votes: 3
     prices:
       six_pack: 10.99
       twelve_pack: 20.99
   
   - name: Stella
     category: Beer
-    votes: 2
+    votes: 0
     prices:
       six_pack: 10.99
       twelve_pack: 20.99
