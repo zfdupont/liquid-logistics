@@ -1,4 +1,4 @@
-# Party Drink Optimizer
+# Alcohol Purchase Optimizer
 
 A Python-based optimization tool that helps plan beverage purchases for parties by considering group preferences, different drink categories, and container sizes. The tool uses linear programming to minimize costs while ensuring adequate supplies based on expected consumption.
 
@@ -14,7 +14,7 @@ This tool solves the common party planning challenge of determining optimal beve
 ## Usage
 
 ```bash
-python purchase_optimizer.py config.yaml
+python optimizer.py config.yaml
 ```
 
 ## Configuration Guide
@@ -156,12 +156,11 @@ drink_preferences:
       liter: 25.00
       handle: 40.00
   
-  - name: IPA
+  - name: Hazy IPA
     category: Beer
     votes: 8
     prices:
       six_pack: 12.00
-      twelve_pack: 22.00
       case: 40.00
 ```
 
