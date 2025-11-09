@@ -252,6 +252,7 @@ def print_purchase_plan(
         for pref in category_prefs:
             drink_cost = 0
             drink_servings = 0
+            if pref.votes == 0: continue
             print(f"\n  {pref.name}:")
             
             for container in pref.get_available_containers():
