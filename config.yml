@@ -99,7 +99,7 @@ drink_preferences:
     prices:
       375_ml: 8.99
       fifth: 16.99
-      liter: 24.00 # not sold so we go ridiculously high
+      liter: 24.00
       handle: 32.99
   
   - name: Jagermeister
